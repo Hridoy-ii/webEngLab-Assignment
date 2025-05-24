@@ -2,43 +2,79 @@
 <html>
 
 <head>
-    <title>HTML List and Table Example</title>
+    <title>Coffee House</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkgreen;
+            margin-bottom: 30px;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        th,
+        td {
+            border: 1px solid #888;
+            padding: 10px;
+            text-align: center;
+        }
+
+        img {
+            width: 100px;
+            height: 80px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- i. List order using HTML -->
-    <h2>Ordered List Example</h2>
-    <ol>
-        <li>Wake up</li>
-        <li>Brush teeth</li>
-        <li>Have breakfast</li>
-        <li>Go to class</li>
-    </ol>
 
-    <!-- ii. Table creation using HTML -->
-    <h2>Table Example</h2>
+    <h1>Coffee House</h1>
+
     <table>
         <tr>
-            <th>Name</th>
-            <th>Subject</th>
-            <th>Marks</th>
+            <th>Item Image</th>
+            <th>Item Name</th>
+            <th>Ingredients</th>
         </tr>
         <tr>
-            <td>Rahim</td>
-            <td>Math</td>
-            <td>90</td>
+            <td><img src="https://i.ibb.co/MDBLZ1hd/olivia-anne-snyder-R5-Rtl-MOYg-X8-unsplash.jpg" alt="Latte"></td>
+            <td>Latte</td>
+            <td>Espresso, Steamed Milk</td>
         </tr>
         <tr>
-            <td>Karim</td>
-            <td>Science</td>
-            <td>85</td>
+            <td><img src="https://i.ibb.co/CfG0vYb/pexels-jeshoots-3570.jpg" alt="Croissant"></td>
+            <td>Croissant</td>
+            <td>Sugar, flour, milk, salt, vegetable oil, yeast, butter</td>
         </tr>
         <tr>
-            <td>Bablu</td>
-            <td>English</td>
-            <td>88</td>
+            <td><img src="https://i.ibb.co/M5Q33w2B/vd-photography-fs5b-DRq-Ux-Bk-unsplash.jpg" alt="Milk Tea"></td>
+            <td>Milk Tea</td>
+            <td>Tea, milk, sugar</td>
+        </tr>
+        <tr>
+            <td><img src="https://i.ibb.co/FkykVJ30/3410007.webp" alt="BelleAme Cookie"></td>
+            <td>BelleAme Cookie</td>
+            <td>Flour, butter, Oil, sugar, salt</td>
+        </tr>
+        <tr>
+            <td><img src="https://i.ibb.co/F4Wbrmzr/small-vecteezy-ai-generated-freshness-and-crunchiness-of-homemade-39629436-small.jpg"
+                    alt="Samussa"></td>
+            <td>Samussa</td>
+            <td>Flour, Oil, Potato, salt</td>
         </tr>
     </table>
+    <footer style="margin-top: 50px;">
+        <p>&copy; 2023 Coffee House. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
